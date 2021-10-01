@@ -12,11 +12,11 @@
             <th>Employee Last Name</th>
             <th>Employee Position</th>
         </tr>
-        <tr th:each="employee:${employees}">
-            <td th:text="${employee.guid}">GUID</td>
-            <td th:text="${employee.firstName}">First Name</td>
-            <td th:text="${employee.lastName}">Last Name</td>
-            <td th:text="${employee.position}">Position</td>
+        <tr th:each="staff:${staffs}">
+            <td th:text="${staff.guid}">GUID</td>
+            <td th:text="${staff.firstName}">First Name</td>
+            <td th:text="${staff.lastName}">Last Name</td>
+            <td th:text="${staff.position}">Position</td>
         </tr>
     </table>
 </body>

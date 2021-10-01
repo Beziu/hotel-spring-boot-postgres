@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/employees")
+@RequestMapping("/staff")
 public class StaffController {
 
     private static final List<StaffMember> STAFF_MEMBERS = new ArrayList<>();
