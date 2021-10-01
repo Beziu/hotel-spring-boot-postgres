@@ -5,6 +5,7 @@ import com.frankmoley.lil.sbet.landon.roomwebapp.models.StaffMember;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class StaffService {
@@ -25,6 +26,10 @@ public class StaffService {
 
     public List<StaffMember> getAllStaff() {
         return staffRepository.findAll();
+    }
+
+    public StaffMember getById(UUID uuid) {
+        return staffRepository.findById(uuid).get();
     }
 
 }

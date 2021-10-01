@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/rooms")
+@RequestMapping("/web/rooms")
 public class RoomController {
 
 //    private static final List<Room> rooms = new ArrayList<>();

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/staffs")
+@RequestMapping("/web/staffs")
 public class StaffController {
 
 //    private static final List<StaffMember> staffMembers = new ArrayList<>();
