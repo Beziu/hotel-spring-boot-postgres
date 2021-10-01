@@ -13,17 +13,17 @@ import java.util.List;
 @RequestMapping("/staff")
 public class StaffController {
 
-    private static final List<StaffMember> STAFF_MEMBERS = new ArrayList<>();
+    private static final List<StaffMember> staffMembers = new ArrayList<>();
 
     static {
         for (int i = 0; i < 10; i++) {
-            STAFF_MEMBERS.add(new StaffMember("Bat " + i, "Man " + i, "GARDNER"));
+            staffMembers.add(new StaffMember("Bat " + i, "Man " + i, "GARDNER"));
         }
     }
 
     @GetMapping
     public String getAllEmployees (Model model) {
-        model.addAttribute("employees", STAFF_MEMBERS);
-        return "employees";
+        model.addAttribute("staffs", staffMembers);
+        return "staffs";
     }
 }

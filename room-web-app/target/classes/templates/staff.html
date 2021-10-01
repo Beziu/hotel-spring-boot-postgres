@@ -12,6 +12,8 @@
             <th>Employee Last Name</th>
             <th>Employee Position</th>
         </tr>
+        <!-- Lista studentow klasy -->
+        <!-- <tr th:each="student:${class}" -->
         <tr th:each="staff:${staffs}">
             <td th:text="${staff.guid}">GUID</td>
             <td th:text="${staff.firstName}">First Name</td>
