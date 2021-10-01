@@ -3,21 +3,21 @@ package com.frankmoley.lil.sbet.landon.roomwebapp.models;
 import javax.persistence.*;
 
 @Entity
-@Table (name = "ROOM")
+@Table(name = "ROOM")
 public class Room {
 
     @Id
-    @Column (name = "ROOM_ID")
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @Column(name = "ROOM_ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column (name = "ROOM_NUMBER")
+    @Column(name = "ROOM_NUMBER")
     private String number;
 
-    @Column (name = "NAME")
+    @Column(name = "NAME")
     private String name;
 
-    @Column (name = "BED_INFO")
+    @Column(name = "BED_INFO")
     private String info;
 
     public Room () {
