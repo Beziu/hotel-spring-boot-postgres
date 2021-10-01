@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/booting-web/booting-web.iml" filepath="$PROJECT_DIR$/booting-web/booting-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" filepath="$PROJECT_DIR$/fizz-buzz/fizz-buzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/room-cleaner-notifier/room-cleaner-notifier.iml" filepath="$PROJECT_DIR$/room-cleaner-notifier/room-cleaner-notifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/room-clr/room-clr.iml" filepath="$PROJECT_DIR$/room-clr/room-clr.iml" />
       <module fileurl="file://$PROJECT_DIR$/room-web-app/room-web-app.iml" filepath="$PROJECT_DIR$/room-web-app/room-web-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-et.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-et.iml" />
